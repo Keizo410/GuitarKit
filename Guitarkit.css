@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+#guitar {
+    
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+kbd{
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(240, 244, 247);
+}
+.stroke{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.key-map-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50%;
+    background: #fffefe;
+    width: 250px;
+    z-index: 0;
+   
+}
+.key-map-wrapper > h2 {
+	
+	font-family: 'Handlee', cursive;
+	margin-bottom: 35px;
+	border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    margin-left: 25%;
+}
